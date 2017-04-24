@@ -57,9 +57,9 @@ MergedData <- rbind (TrainData, TestData)
 
 ## Extract only the measurements on the mean and standard deviation for 
 ## each measurement.
-ColumnNames <- grep("mean|std", Features$V2)
+ColumnNumbers <- grep("mean|std", Features$V2)
 
-MeanAndStdData <- MergedData[,c(1,2,ColumnNames + 2)]
+MeanAndStdData <- MergedData[,c(1,2,ColumnNumbers + 2)]
 
 ## Use descriptive activity names to name the activities in the data set   
 TidyData <- merge(ActivityLabels, MergedData, by='ActivityId', all.x=TRUE)
