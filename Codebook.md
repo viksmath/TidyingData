@@ -1,8 +1,8 @@
-# This codebook describles all the variables used in run_analysis.R
+## This codebook describles all the variables used in run_analysis.R
 
-# zipfileURL stores the URL from which the dataset is downloaded
+## zipfileURL stores the URL from which the dataset is downloaded
 
-# Features stores the data from the 'features.txt' file.
+## Features stores the data from the 'features.txt' file.
 # ActivityLabels stores the data from the 'activity_labels.txt' file. Links the class labels with their activity name.
 # XTrainData stores the data from the 'train/X_train.txt' file.  It is the Training dataset.
 # YTrainLabels stores the data from the 'train/y_train.txt' file.  It has the Training labels.
