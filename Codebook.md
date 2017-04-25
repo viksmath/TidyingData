@@ -21,7 +21,7 @@
 
 ## TidyData stores the required dataset with descriptive activity names to name the activities in the dataset   
 
-## DescriptiveVariables stores the names of the columns in TidyData. It is used to label the TidyData dataset with descriptive variable
-## names.       
+## DescriptiveVariables stores the names of the columns in TidyData. 
+## It is used to label the TidyData dataset with descriptive variable names.       
 
 ## NewTidyData is the independent tidy data set with the average of each variable for each activity and each subject.   
